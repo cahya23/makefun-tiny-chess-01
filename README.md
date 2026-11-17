@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/cahya23/makefun-tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/cahya23/makefun-tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A compact chess engine in 4,096 bytes of Python: negamax alpha-beta with quiescence, a transposition table, killer moves and piece-square evaluation, playing the house gauntlet through the make.fun env. Deterministic — a fixed node budget, never a clock.
+A compact chess engine in 4,096 bytes of Python: negamax alpha-beta with quiescence, null-move pruning, a transposition table, killer moves, and piece-square plus passed-pawn evaluation, playing the house gauntlet through the make.fun env. Deterministic — a fixed 180,000-node budget per move, never a clock.
 
 ## Run it
 
